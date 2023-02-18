@@ -1,0 +1,27 @@
+<table border=1>
+<thead>
+    <tr>
+        <th>yyyymmdd</th>
+        <th>detail</th>
+        <th>row_num</th>
+        <th>content</th>
+    </tr>
+</thead>
+<tbody>
+{%- for row in rows %}
+    <tr>
+        <td>{{ row.yyyymmdd }}</td>
+        <td>{{ row.detail }}</td>
+        {% if row.row_num == "0"  %}
+        <td style="background-color:#CACAFF;"><b>{{ row.row_num }}</b></td>
+        {% else %}
+        <td>{{ row.row_num }}</td>
+        {% endif %}
+        
+        <td>{{ row.content }}</td>
+    </tr>
+{%- endfor %}
+</tbody>
+</table>
+
+

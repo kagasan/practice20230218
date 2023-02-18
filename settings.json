@@ -1,0 +1,20 @@
+{
+    "targets": [
+        {
+            "yyyymmdd": "20230101",
+            "detail": "元旦"
+        },
+        {
+            "yyyymmdd": "20230102",
+            "detail": "休日"
+        },
+        {
+            "yyyymmdd": "20230109",
+            "detail": "成人の日"
+        },
+        {
+            "yyyymmdd": "20230211",
+            "detail": "建国記念の日"
+        }
+    ]
+}
